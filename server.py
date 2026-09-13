@@ -1,6 +1,7 @@
 import threading
 import socket
 
+#the IP and port go here, I have it as 0.0.0.0 by default which is the local ip but you can change it.
 host = '0.0.0.0' 
 port = 9999
 
