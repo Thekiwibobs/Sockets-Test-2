@@ -1,4 +1,4 @@
-This project is a simple chat room written in python that you can host or join.
+This project is a simple chat room written fully in python that you can host or join.
 The server can't see messages only people who joined.
 
 Keep in mind that messages sent on this platform are unencrypted at the moment.
