@@ -5,6 +5,7 @@ nickname = input("choose a nickname: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(("127.0.0.1", 9999))
+#yeah this is the ip and port you connect here 
 
 def receive():
     while True:
@@ -32,3 +33,5 @@ write_thread = threading.Thread(target=write)
 write_thread.start()
 
 print("Press enter")
+
+#hello lol
